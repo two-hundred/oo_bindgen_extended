@@ -1,10 +1,13 @@
-![Step Function I/O](./sfio_logo.png)
-
 # oo-bindgen
 
-![CI](https://github.com/stepfunc/oo_bindgen/workflows/CI/badge.svg)
+![CI](https://github.com/two-hundred/oo_bindgen_extended/workflows/CI/badge.svg)
 
 Object-oriented binding generator for Rust.
+
+This is a fork of the amazing [oo_bindgen](https://github.com/stepfunc/oo_bindgen) project created by the team at stepfunc.io.
+
+This fork exists to extend the capabilities to include backend generators for Python and Node.js.
+A lot of the `::backend` and `::model` module code is private to the `oo-bindgen` crate but is needed to add new backend generators. For this reason, it was necessary to fork the project in order to create backend generators for more target languages.
 
 
 ## License
