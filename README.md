@@ -1,4 +1,4 @@
-# oo-bindgen
+# oo-bindgen (extended)
 
 ![CI](https://github.com/two-hundred/oo_bindgen_extended/workflows/CI/badge.svg)
 
